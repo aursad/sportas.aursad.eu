@@ -1,0 +1,40 @@
+﻿<h1 class="page-header">Dienos pratimai</h1>
+<li ng-repeat="uzduotis in diena.diena | filter:query">
+    <h1>{{uzduotis.pavadinimas}}</h1>
+    <ol ng-repeat="pratimas in uzduotis.pratimai | filter:query">
+        <h2>{{pratimas.pratimas}}</h2>
+        <div class="row">
+            <div class="col-md-2">
+                <img ng-src="{{pratimas.img}}">
+            </div>
+            <div class="col-sm-10 col-md-10 col-xs-10">
+                <div class="row">
+                    <div class="col-sm-2 col-md-2 col-xs-2">
+                        Atlikimas:
+                    </div>
+                    <div class="col-sm-10 col-md-10 col-xs-10">
+                        {{pratimas.kartai}}x{{pratimas.kiekis}}
+                    </div>
+                    <div class="col-sm-2 col-md-2 col-xs-2">
+                        Aprašymas:
+                    </div>
+                    <div class="col-sm-10 col-md-10 col-xs-10">
+                        {{pratimas.aprasymas | notnull}}
+                    </div>
+                    <div class="col-sm-2 col-md-2 col-xs-2">
+                        Pasiruošimas:
+                    </div>
+                    <div class="col-sm-10 col-md-10 col-xs-10">
+                        {{pratimas.pasiruosimas | notnull}}
+                    </div>
+                    <div class="col-sm-2 col-md-2 col-xs-2">
+                        Atlikimas:
+                    </div>
+                    <div class="col-sm-10 col-md-10 col-xs-10">
+                        {{pratimas.atlikimas | notnull}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ol>
+</li>

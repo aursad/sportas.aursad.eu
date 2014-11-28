@@ -4,10 +4,11 @@
     <ol ng-repeat="pratimas in uzduotis.pratimai | filter:query">
         <h2>{{pratimas.pratimas}}</h2>
         <div class="row">
-            <div class="col-md-2">
-                <img ng-src="{{pratimas.img}}">
+            <div class="col-md-6">
+                <img ng-src="{{pratimas.img}}" height="120px" width="160px">
+                <img ng-if="pratimas.img2 != ''" ng-src="{{pratimas.img2}}" height="120px" width="160px">
             </div>
-            <div class="col-sm-10 col-md-10 col-xs-10">
+            <div class="col-sm-6 col-md-6 col-xs-6">
                 <div class="row">
                     <div class="col-sm-2 col-md-2 col-xs-2">
                         Atlikimas:
@@ -20,18 +21,6 @@
                     </div>
                     <div class="col-sm-10 col-md-10 col-xs-10">
                         {{pratimas.aprasymas | notnull}}
-                    </div>
-                    <div class="col-sm-2 col-md-2 col-xs-2">
-                        Pasiruošimas:
-                    </div>
-                    <div class="col-sm-10 col-md-10 col-xs-10">
-                        {{pratimas.pasiruosimas | notnull}}
-                    </div>
-                    <div class="col-sm-2 col-md-2 col-xs-2">
-                        Atlikimas:
-                    </div>
-                    <div class="col-sm-10 col-md-10 col-xs-10">
-                        {{pratimas.atlikimas | notnull}}
                     </div>
                 </div>
             </div>

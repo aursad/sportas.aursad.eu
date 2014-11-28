@@ -1,8 +1,8 @@
 ﻿[
     {
-        "id": 0, 
-        "diena": "Pirmadienis",
-		"file": "Pirmadienis"
+        "id": 2,
+        "diena": "Antradienis",
+		"file": "Antradienis"
     },
 	{
         "id": 3, 
@@ -10,9 +10,15 @@
 		"file": "Treciadienis"
 
     },
-	{
-        "id": 5, 
+    {
+        "id": 5,
         "diena": "Penktadienis",
-		"file": "Penktadienis"
+        "file": "Penktadienis"
+
+    },
+	{
+        "id": 6,
+        "diena": "Šeštadienis",
+		"file": "Sestadienis"
     }
 ]

@@ -1,0 +1,121 @@
+﻿{
+"diena": [
+	{
+		"pavadinimas": "Chest and Triceps",
+		"pratimai": [
+			{
+				"id": 0,
+				"pratimas": "Barbell Bench Press",
+				"kartai": 5,
+				"kiekis": "12,12,8,8,8",
+				"img": "http://www.jefit.com/images/exercises/800_600/8.jpg",
+				"img2": "http://www.jefit.com/images/exercises/800_600/9.jpg"
+			},
+			{
+				"id": 1,
+				"pratimas": "Barbell Incline Bench Press",
+				"kartai": 3,
+				"kiekis": 8,
+				"img": "http://www.jefit.com/images/exercises/800_600/32.jpg",
+				"img2": "http://www.jefit.com/images/exercises/800_600/33.jpg"
+			},
+            {
+                "id": 2,
+                "pratimas": "Dumbbell Bench Press",
+                "kartai": 3,
+                "kiekis": 8,
+                "img": "http://www.jefit.com/images/exercises/800_600/104.jpg",
+                "img2": "http://www.jefit.com/images/exercises/800_600/105.jpg"
+            },
+            {
+                "id": 3,
+                "pratimas": "Dumbbell Incline Bench Press",
+                "kartai": 3,
+                "kiekis": 8,
+                "img": "http://www.jefit.com/images/exercises/800_600/124.jpg",
+                "img2": "http://www.jefit.com/images/exercises/800_600/125.jpg"
+            },
+            {
+                "id": 4,
+                "pratimas": "Dumbbell Fly",
+                "kartai": 3,
+                "kiekis": 8,
+                "img": "http://www.jefit.com/images/exercises/800_600/164.jpg",
+                "img2": "http://www.jefit.com/images/exercises/800_600/165.jpg"
+            },
+            {
+                "id": 5,
+                "pratimas": "Barbell Close Grip Bench Press",
+                "kartai": 3,
+                "kiekis": 8,
+                "img": "http://www.jefit.com/images/exercises/800_600/16.jpg",
+                "img2": "http://www.jefit.com/images/exercises/800_600/17.jpg"
+            },
+            {
+                "id": 6,
+                "pratimas": "Barbell Triceps Extension",
+                "kartai": 3,
+                "kiekis": 8,
+                "img": "http://www.jefit.com/images/exercises/800_600/604.jpg",
+                "img2": "http://www.jefit.com/images/exercises/800_600/605.jpg"
+            },
+            {
+                "id": 7,
+                "pratimas": "Dumbbell Standing Triceps Extension",
+                "kartai": 3,
+                "kiekis": 8,
+                "img": "http://www.jefit.com/images/exercises/800_600/988.jpg",
+                "img2": "http://www.jefit.com/images/exercises/800_600/989.jpg"
+            },
+            {
+                "id": 8,
+                "pratimas": "Triceps Pushdown V Bar",
+                "kartai": 3,
+                "kiekis": 8,
+                "img": "http://www.jefit.com/images/exercises/800_600/596.jpg",
+                "img2": "http://www.jefit.com/images/exercises/800_600/597.jpg"
+            }
+		]
+	},
+	{
+		"pavadinimas": "Abs",
+		"pratimai": [
+			{
+				"pratimas": "Weighted Crunches",
+				"kartai": 3,
+				"kiekis": 30,
+				"img": "http://www.jefit.com/images/exercises/800_600/3212.jpg",
+				"img2": "http://www.jefit.com/images/exercises/800_600/3213.jpg"
+			},
+            {
+                "pratimas": "Barbell Ab Rollout on Knees",
+                "kartai": 3,
+                "kiekis": 20,
+                "img": "http://www.jefit.com/images/exercises/800_600/1176.jpg",
+                "img2": "http://www.jefit.com/images/exercises/800_600/1177.jpg"
+            },
+            {
+                "pratimas": "Hanging Leg Raise",
+                "kartai": 3,
+                "kiekis": 25,
+                "img": "http://www.jefit.com/images/exercises/800_600/244.jpg",
+                "img2": "http://www.jefit.com/images/exercises/800_600/245.jpg"
+            },
+            {
+                "pratimas": "Decline Crunch",
+                "kartai": 3,
+                "kiekis": 20,
+                "img": "http://www.jefit.com/images/exercises/800_600/312.jpg",
+                "img2": "http://www.jefit.com/images/exercises/800_600/313.jpg"
+            },
+            {
+                "pratimas": "Cable Kneeling Pulldown",
+                "kartai": 3,
+                "kiekis": 30,
+                "img": "http://www.jefit.com/images/exercises/800_600/2780.jpg",
+                "img2": "http://www.jefit.com/images/exercises/800_600/2781.jpg"
+            }
+		]
+	}
+]
+}

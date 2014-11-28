@@ -1,11 +1,5 @@
 ﻿<h1 class="page-header">Dienos</h1>  
 <div class="row">
-    <div class="col-xs-3 col-sm-3 col-md-3 pull-right">
-        <select ng-model="orderProp" class="form-control input-lg">
-            <option value="id">Diena</option>
-            <option value="diena">Pavadinimą</option>
-        </select>
-    </div>
     <div class="btn-group-vertical col-sm-9 col-md-9 col-xs-9">
         <a href="#/treniruote/{{diena.file}}" class="btn btn-primary btn-lg btn-block" ng-repeat="diena in dienos | filter:query | orderBy:orderProp">{{diena.diena}}</a>
     </div>

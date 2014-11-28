@@ -1,0 +1,18 @@
+﻿[
+    {
+        "id": 0, 
+        "diena": "Pirmadienis",
+		"file": "Pirmadienis"
+    },
+	{
+        "id": 3, 
+        "diena": "Trečiadienis",
+		"file": "Treciadienis"
+
+    },
+	{
+        "id": 5, 
+        "diena": "Penktadienis",
+		"file": "Penktadienis"
+    }
+]

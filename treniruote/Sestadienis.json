@@ -1,0 +1,119 @@
+﻿{
+"diena": [
+			{
+				"pavadinimas": "Biceps and Shoulders",
+				"pratimai": [
+					{
+						"pratimas": "Dumbbell Arnold Press",
+						"kartai": 3,
+						"kiekis": 8,
+						"img": "http://www.jefit.com/images/exercises/800_600/100.jpg",
+						"img2": "http://www.jefit.com/images/exercises/800_600/101.jpg"
+					},
+                    {
+                        "pratimas": "Barbell Shoulder Press",
+                        "kartai": 3,
+                        "kiekis": 8,
+                        "img": "http://www.jefit.com/images/exercises/800_600/40.jpg",
+                        "img2": "http://www.jefit.com/images/exercises/800_600/41.jpg"
+                    },
+                    {
+                        "pratimas": "Dumbbell Lateral Raise",
+                        "kartai": 3,
+                        "kiekis": 8,
+                        "img": "http://www.jefit.com/images/exercises/800_600/128.jpg",
+                        "img2": "http://www.jefit.com/images/exercises/800_600/129.jpg"
+                    },
+                    {
+                        "pratimas": "Dumbbell Front Raise",
+                        "kartai": 3,
+                        "kiekis": 8,
+                        "img": "http://www.jefit.com/images/exercises/800_600/116.jpg",
+                        "img2": "http://www.jefit.com/images/exercises/800_600/117.jpg"
+                    },
+                    {
+                        "pratimas": "Barbell Shrug",
+                        "kartai": 3,
+                        "kiekis": 8,
+                        "img": "http://www.jefit.com/images/exercises/800_600/44.jpg",
+                        "img2": "http://www.jefit.com/images/exercises/800_600/45.jpg"
+                    },
+                    {
+                        "pratimas": "Barbell Curl",
+                        "kartai": 3,
+                        "kiekis": 8,
+                        "img": "http://www.jefit.com/images/exercises/800_600/448.jpg",
+                        "img2": "http://www.jefit.com/images/exercises/800_600/449.jpg"
+                    },
+                    {
+                        "pratimas": "Dumbbell Alternate Bicep Curl",
+                        "kartai": 3,
+                        "kiekis": 8,
+                        "img": "http://www.jefit.com/images/exercises/800_600/464.jpg",
+                        "img2": "http://www.jefit.com/images/exercises/800_600/465.jpg"
+                    },
+                    {
+                        "pratimas": "Dumbbell Alternate Hammer Curl",
+                        "kartai": 3,
+                        "kiekis": 8,
+                        "img": "http://www.jefit.com/images/exercises/800_600/456.jpg",
+                        "img2": "http://www.jefit.com/images/exercises/800_600/457.jpg"
+                    },
+                    {
+                        "pratimas": "Dumbbell Concentration Curls",
+                        "kartai": 3,
+                        "kiekis": 8,
+                        "img": "http://www.jefit.com/images/exercises/800_600/428.jpg",
+                        "img2": "http://www.jefit.com/images/exercises/800_600/429.jpg"
+                    },
+                    {
+                        "pratimas": "Dumbbell Alternate Incline Curl",
+                        "kartai": 3,
+                        "kiekis": 8,
+                        "img": "http://www.jefit.com/images/exercises/800_600/460.jpg",
+                        "img2": "http://www.jefit.com/images/exercises/800_600/461.jpg"
+                    }
+				]
+			},
+    {
+        "pavadinimas": "Abs",
+        "pratimai": [
+            {
+                "pratimas": "Weighted Crunches",
+                "kartai": 3,
+                "kiekis": 30,
+                "img": "http://www.jefit.com/images/exercises/800_600/3212.jpg",
+                "img2": "http://www.jefit.com/images/exercises/800_600/3213.jpg"
+            },
+            {
+                "pratimas": "Barbell Ab Rollout on Knees",
+                "kartai": 3,
+                "kiekis": 20,
+                "img": "http://www.jefit.com/images/exercises/800_600/1176.jpg",
+                "img2": "http://www.jefit.com/images/exercises/800_600/1177.jpg"
+            },
+            {
+                "pratimas": "Hanging Leg Raise",
+                "kartai": 3,
+                "kiekis": 25,
+                "img": "http://www.jefit.com/images/exercises/800_600/244.jpg",
+                "img2": "http://www.jefit.com/images/exercises/800_600/245.jpg"
+            },
+            {
+                "pratimas": "Decline Crunch",
+                "kartai": 3,
+                "kiekis": 20,
+                "img": "http://www.jefit.com/images/exercises/800_600/312.jpg",
+                "img2": "http://www.jefit.com/images/exercises/800_600/313.jpg"
+            },
+            {
+                "pratimas": "Cable Kneeling Pulldown",
+                "kartai": 3,
+                "kiekis": 30,
+                "img": "http://www.jefit.com/images/exercises/800_600/2780.jpg",
+                "img2": "http://www.jefit.com/images/exercises/800_600/2781.jpg"
+            }
+        ]
+    }
+		]
+		}

@@ -1,139 +1,112 @@
 ﻿{
 "diena": [
 			{
-				"pavadinimas": "Kojos", 
+				"pavadinimas": "Back and Abs",
 				"pratimai": [
 					{
-						"id": 0,
-						"pratimas": "Mirties trauka",
+						"pratimas": "Barbell Deadlift",
 						"kartai": 3,
-						"kiekis": 10,
-						"img": "http://www.kulturizmas.net/images/pratimai/kojos/mirties_trauka.gif",
-						"aprasymas": "",
-						"pasiruosimas": "Pasilenkite prie štangos ir suimkite ją pečių plotyje ar truputį plačiau.",
-						"atlikimas": "Kelkite štangą tiesdami nugarą. Traukite pečius atgal."
+						"kiekis": 8,
+						"img": "http://www.jefit.com/images/exercises/800_600/372.jpg",
+						"img2": "http://www.jefit.com/images/exercises/800_600/373.jpg"
 					},
-					{
-						"id": 1,
-						"pratimas": "Kojų spaudimas",
-						"kartai": 3,
-						"kiekis": 10,
-						"img": "http://www.kulturizmas.net/images/pratimai/kojos/leg_presas.gif",
-						"aprasymas": "",
-						"pasiruosimas": "Atsisėskite į treniruoklį. Padėkite pėdas ant platformos ir palikite tarpą tarp jų. Tieskite kojas. Atleiskite laikiklius ir sugriebkite rankenas šonuose.",
-						"atlikimas": "Leiskite platformą lenkdami kelius, iki 90 laipsnių kampo. Jei leidžia lankstumas, galima leisti svorį žemiau. Pėdos turi būti prispaustos prie platformos. Grįžkite tiesdami kojas. Kartokite veiksmą."
-					},
-					{
-						"id": 2,
-						"pratimas": "Kojų tiesimas sėdint",
-						"kartai": 3,
-						"kiekis": 10,
-						"img": "http://www.kulturizmas.net/images/pratimai/kojos/koju_tiesimas_sedint.gif",
-						"aprasymas": "",
-						"pasiruosimas": "Atsisėskite treniruoklyje, kad keliai būtų prie suolo krašto. Čiurnas užkiškite už atramų.",
-						"atlikimas": "Tieskite kojas, kol jos išsities visiškai, vėliau lenkite kojas atgal."
-					},
-					{
-						"id": 3,
-						"pratimas": "Kojų lenkimas gulint",
-						"kartai": 3,
-						"kiekis": 10,
-						"img": "http://www.kulturizmas.net/images/pratimai/kojos/koju_lenkimas_gulint.gif",
-						"aprasymas": "",
-						"pasiruosimas": "Atsigulkite ant pilvo. Čiurnas užkiškite už atramų, delnais įsikibkite į rankenas.",
-						"atlikimas": "Lenkite kojas per kelių sąnarius. Grįžkite į pradinę poziciją, ištiesiant kojas."
-					},
-					{
-						"id": 4,
-						"pratimas": "Pasistiebimai atsistojus",
-						"kartai": 3,
-						"kiekis": 15,
-						"img": "",
-						"aprasymas": "",
-						"pasiruosimas": "",
-						"atlikimas": ""
-					}
+                    {
+                        "pratimas": "Barbell Bent Over Row",
+                        "kartai": 3,
+                        "kiekis": 8,
+                        "img": "http://www.jefit.com/images/exercises/800_600/12.jpg",
+                        "img2": "http://www.jefit.com/images/exercises/800_600/13.jpg"
+                    },
+                    {
+                        "pratimas": "Wide Grip Lat Pulldown",
+                        "kartai": 3,
+                        "kiekis": 8,
+                        "img": "http://www.jefit.com/images/exercises/800_600/344.jpg",
+                        "img2": "http://www.jefit.com/images/exercises/800_600/345.jpg"
+                    },
+                    {
+                        "pratimas": "Close Grip Front Lat Pulldown",
+                        "kartai": 3,
+                        "kiekis": 8,
+                        "img": "http://www.jefit.com/images/exercises/800_600/348.jpg",
+                        "img2": "http://www.jefit.com/images/exercises/800_600/349.jpg"
+                    },
+                    {
+                        "pratimas": "Cable Seated Row",
+                        "kartai": 3,
+                        "kiekis": 8,
+                        "img": "http://www.jefit.com/images/exercises/800_600/84.jpg",
+                        "img2": "http://www.jefit.com/images/exercises/800_600/85.jpg"
+                    },
+                    {
+                        "pratimas": "Dumbbell One Arm Row",
+                        "kartai": 3,
+                        "kiekis": 8,
+                        "img": "http://www.jefit.com/images/exercises/800_600/360.jpg",
+                        "img2": "http://www.jefit.com/images/exercises/800_600/361.jpg"
+                    },
+                    {
+                        "pratimas": "Pull Ups",
+                        "kartai": 3,
+                        "kiekis": 8,
+                        "img": "http://www.jefit.com/images/exercises/800_600/332.jpg",
+                        "img2": "http://www.jefit.com/images/exercises/800_600/333.jpg"
+                    }
 				]
 			},
-			{
-				"pavadinimas": "Pečiai", 
-				"pratimai": [
-					{
-						"id": 0,
-						"pratimas": "Štangos spaudimas pečiams",
-						"kartai": 3,
-						"kiekis": 8,
-						"img": "http://www.kulturizmas.net/images/pratimai/peciai/stangos_spaudimas_is_priekio.gif",
-						"aprasymas": "Pagrindinis krūvis tenka priekinei ir vidurinei deltinio raumens daliai. Papildomas krūvis tenka trigalviams žastų raumenims.",
-						"pasiruosimas": "Suimkite štangą truputį plačiau nei pečių plotis, pakelkite štangą nuo laikiklių. Laikykite štangą prie krūtinės viršaus.",
-						"atlikimas": "Spauskite štangą į viršų, kol rankos išsities. Nuleiskite iki krūtinės. Kartokite veiksmą."
-					},
-					{
-						"id": 1,
-						"pratimas": "Hantelių kėlimas į šalis",
-						"kartai": 3,
-						"kiekis": 8,
-						"img": "http://www.kulturizmas.net/images/pratimai/peciai/mostai_su_hanteliais_stovint.gif",
-						"aprasymas": "Pagrindinis krūvis tenka vidurinei deltinio raumens daliai. Papildomas krūvis – deltinio raumens priekinei daliai ir trapeciniam raumeniui.",
-						"pasiruosimas": "Paimkite hantelius. Truputį sulenkite kelius, palinkite į priekį.",
-						"atlikimas": "Kelkite rankas į šonus iki pečių aukščio. Nuleiskite hantelius žemyn. Kartokite veiksmą"
-					},
-					{
-						"id": 2,
-						"pratimas": "Hantelių kėlimas į priekį",
-						"kartai": 3,
-						"kiekis": 8,
-						"img": "http://www.kulturizmas.net/images/pratimai/peciai/hanteliu_mostai_i_prieki.gif",
-						"aprasymas": "Pagrindinis krūvis tenka priekinei deltinio raumens daliai. Papildomas krūvis – vidutinei raumens daliai ir trapeciniam raumeniui.",
-						"pasiruosimas": "Paimkite hantelius į abi rankas.",
-						"atlikimas": "Kelkite vieną hantelį nejudindami, kol ranka taps lygiagreti grindims. Nuleiskite ranką. Kartokite veiksmą su kita ranka."
-					},
-					{
-						"id": 3,
-						"pratimas": "Štangos trauka prie smakro",
-						"kartai": 3,
-						"kiekis": 8,
-						"img": "http://www.kulturizmas.net/images/pratimai/peciai/stangos_trauka_prie_smakro.gif",
-						"aprasymas": "Pagrindinis krūvis tenka deltinio raumens vidurinei daliai. Papildomai apkraunami priekinė deltinio raumens dalis, trapecinis raumuo ir dvigalviai žastų raumenys.",
-						"pasiruosimas": "Suimkite štangą siauriau nei pečių plotis.",
-						"atlikimas": "Kelkite štangą link smakro. Leiskite riešams suktis taip, kaip sukasi štanga. Nuleiskite ir kartokite veiksmą."
-					}
-				]
-			},
-			{
-				"pavadinimas": "Press'as supersetai", 
-				"pratimai": [
-					{
-						"id": 0,
-						"pratimas": "Kilnojant kojas pasirėmus ant alkūnių",
-						"kartai": 3,
-						"kiekis": 15,
-						"img": "",
-						"aprasymas": "",
-						"pasiruosimas": "",
-						"atlikimas": ""
-					},
-					{
-						"id": 1,
-						"pratimas": "Kojų lenkimas gulint",
-						"kartai": 3,
-						"kiekis": 15,
-						"img": "http://www.kulturizmas.net/images/pratimai/presas/koju_lenkimas_gulint.gif",
-						"aprasymas": "",
-						"pasiruosimas": "Atsigulkite ant suoliuko arba grindų. Ištieskite rankas pagal savo šonus. Sulenkite kelius 60 laipsnių kampu. Ir tiesiog kelkite kojas nuo pagrindo.",
-						"atlikimas": "Naudodami apatinį presą šiek tiek pakelkite dubenį, kad galėtumėte pakelti šlaunis. Jūsų keliai turėtų atsirasti virš krūtinės. Įtemkite presą ir vėl grįžkite į pradinę padėtį. Norėdami padidinti krūvį ištieskite kojas."
-					},
-					{
-						"id": 2,
-						"pratimas": "Ant nuožulnios plokštumas judant liemeniu",
-						"kartai": 3,
-						"kiekis": 15,
-						"img": "",
-						"aprasymas": "",
-						"pasiruosimas": "",
-						"atlikimas": ""
-					}
-				]
-			}
+            {
+                "pavadinimas": "Abs",
+                "pratimai": [
+                    {
+                        "pratimas": "Leg Raise",
+                        "kartai": 3,
+                        "kiekis": 20,
+                        "img": "http://www.jefit.com/images/exercises/800_600/176.jpg",
+                        "img2": "http://www.jefit.com/images/exercises/800_600/177.jpg"
+                    },
+                    {
+                        "pratimas": "Air Bike",
+                        "kartai": 3,
+                        "kiekis": 20,
+                        "img": "http://www.jefit.com/images/exercises/800_600/228.jpg",
+                        "img2": "http://www.jefit.com/images/exercises/800_600/229.jpg"
+                    },
+                    {
+                        "pratimas": "Weighted Crunches",
+                        "kartai": 3,
+                        "kiekis": 30,
+                        "img": "http://www.jefit.com/images/exercises/800_600/3212.jpg",
+                        "img2": "http://www.jefit.com/images/exercises/800_600/3213.jpg"
+                    },
+                    {
+                        "pratimas": "Barbell Ab Rollout on Knees",
+                        "kartai": 3,
+                        "kiekis": 20,
+                        "img": "http://www.jefit.com/images/exercises/800_600/1176.jpg",
+                        "img2": "http://www.jefit.com/images/exercises/800_600/1177.jpg"
+                    },
+                    {
+                        "pratimas": "Hanging Leg Raise",
+                        "kartai": 3,
+                        "kiekis": 25,
+                        "img": "http://www.jefit.com/images/exercises/800_600/244.jpg",
+                        "img2": "http://www.jefit.com/images/exercises/800_600/245.jpg"
+                    },
+                    {
+                        "pratimas": "Decline Crunch",
+                        "kartai": 3,
+                        "kiekis": 20,
+                        "img": "http://www.jefit.com/images/exercises/800_600/312.jpg",
+                        "img2": "http://www.jefit.com/images/exercises/800_600/313.jpg"
+                    },
+                    {
+                        "pratimas": "Cable Kneeling Pulldown",
+                        "kartai": 3,
+                        "kiekis": 30,
+                        "img": "http://www.jefit.com/images/exercises/800_600/2780.jpg",
+                        "img2": "http://www.jefit.com/images/exercises/800_600/2781.jpg"
+                    }
+                ]
+            }
 		]
 		}

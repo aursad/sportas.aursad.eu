@@ -1,63 +1,76 @@
-﻿<!DOCTYPE html>
-<html ng-app="phonecatApp">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="robots" content="noindex, follow">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sportas!</title>
-    <script src="lib/jquery/jquery-1.10.2.js"></script>
-    <script src="lib/angular/angular.js"></script>
-    <script src="lib/angular/angular-resource.js"></script>
-    <script src="lib/angular/angular-route.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/controllers.js"></script>
-    <script src="js/filters.js"></script>
-    <script src="js/services.js"></script>
-
-    <!-- Custom styles for this template -->
-    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="http://getbootstrap.com/examples/dashboard/dashboard.css" rel="stylesheet">
+    <meta charset="utf-8"/>
+    <base href="/"/>
+    <title>sportas.aursad.eu</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimal-ui"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="yes"/>
+    <link rel="shortcut icon" href="/img/ico.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="dist/css/mobile-angular-ui-hover.min.css"/>
+    <link rel="stylesheet" href="dist/css/mobile-angular-ui-base.min.css"/>
+    <link rel="stylesheet" href="dist/css/mobile-angular-ui-desktop.min.css"/>
+    <link rel="stylesheet" href="dist/css/demo.css"/>
+    <script src="dist/js/angular.min.js"></script>
+    <script src="dist/js/angular-resource.js"></script>
+    <script src="dist/js/angular-touch.min.js"></script>
+    <script src="dist/js/angular-sanitize.js"></script>
+    <script src="dist/js/mobile-angular-ui.min.js"></script>
+    <script src="dist/js/angular-ui-router.min.js"></script>
+    <script src="app/common/module.js"></script>
+    <script src="app/common/config.js"></script>
+    <!-- Include resources -->
+    <script src="app/resources/get-day-trainee-resource.js"></script>
+    <script src="app/resources/get-days-resource.js"></script>
+    <!-- Include controllers -->
+    <script src="app/controllers/class-controller.js"></script>
+    <script src="app/controllers/demo.js"></script>
 </head>
-<body>
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Sportas!</a>
+<body ng-app="sportas" ng-controller="MainController">
+
+<!-- Sidebar -->
+<div ng-include="'app/templates/common/sidebar.html'"
+     class="sidebar sidebar-left" toggleable parent-active-class="sidebar-left-in" id="mainSidebar"></div>
+
+<div class="app">
+    <!-- Navbars -->
+    <div class="navbar navbar-app navbar-absolute-top">
+        <div class="navbar-brand navbar-brand-center">
+            <span>sportas.aursad.eu</span>
+        </div>
+        <div class="btn-group pull-left">
+            <div ng-click="toggle('mainSidebar')" class="btn btn-navbar sidebar-toggle">
+                <i class="fa fa-bars"></i> Dienos
             </div>
-            <div class="navbar-collapse collapse">
-                <form class="navbar-form navbar-right">
-                    <input type="text" class="form-control" ng-model="query" placeholder="Search...">
-                </form>
+        </div>
+        <div class="btn-group pull-right">
+            <div ui-sref="home" class="btn btn-navbar">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-home fa-stack-1x fa-inverse"></i>
+                </span>
             </div>
         </div>
     </div>
-
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-3 col-md-2 sidebar">
-                <ul class="nav nav-sidebar">
-                    <li class="active"><a href="#/treniruote/Pirmadienis">Pirmadienis</a></li>
-                    <li><a href="#/treniruote/Treciadienis">Trečiadienis</a></li>
-                    <li><a href="#/treniruote/Penktadienis">Penktadienis</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">            
-                <div ng-view></div>
-            </div>
+    <div class="navbar navbar-app navbar-absolute-bottom">
+        <div class="btn-group justified">
+            <a href="https://github.com/kaimis/sportas.aursad.eu/issues" class="btn btn-navbar"><i class="fa fa-exclamation-circle fa-navbar"></i> Klaida?</a>
+            <a ui-sref="apie" class="btn btn-navbar"><i class="fa fa-info-circle fa-navbar"></i> Apie mus</a>
         </div>
     </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="http://getbootstrap.com/assets/js/docs.min.js"></script>
+    <!-- App Body -->
+    <div class="app-body" ng-class="{loading: loading}">
+        <div ng-show="loading" class="app-content-loading">
+            <i class="fa fa-spinner fa-spin loading-spinner"></i>
+        </div>
+        <ui-view class="app-content" ng-hide="loading"></ui-view>
+    </div>
+
+</div>
+<!-- ~ .app -->
 </body>
 </html>

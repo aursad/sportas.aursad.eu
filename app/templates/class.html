@@ -1,0 +1,32 @@
+<div data-ng-show="diena.diena.length > 0">
+    <input type="search" class="form-control app-search" placeholder="Paieška.." ng-model="q"/>
+    <div class="scrollable">
+        <div class="scrollable-content">
+            <div class="list-group-item" ng-repeat="uzduotis in diena.diena">
+                <h1>{{uzduotis.pavadinimas}}<br/>
+                    <small>
+                        <div class="list-group-item" ng-repeat="pratimas in uzduotis.pratimai | filter:q">
+                            <h2>{{pratimas.pratimas}}</h2>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img ng-src="{{pratimas.img}}" height="120px" width="160px">
+                                    <img ng-if="pratimas.img2 != ''" ng-src="{{pratimas.img2}}" height="120px" width="160px">
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-xs-6">
+                                    Atlikimas: {{pratimas.kartai}}x{{pratimas.kiekis}}
+                                </div>
+                            </div>
+                        </div>
+                    </small>
+                </h1>
+            </div>
+        </div>
+    </div>
+</div>
+<div data-ng-show="diena.diena.length == 0" class="col-sm-12">
+    <div class="scrollable-content">
+        <div class="list-group">
+            <div class="alert alert-danger" role="alert">Oops... Nerasta.</div>
+        </div>
+    </div>
+</div>

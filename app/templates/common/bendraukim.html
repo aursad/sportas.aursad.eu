@@ -1,0 +1,23 @@
+<div class="scrollable">  
+  <div class="scrollable-content">
+    <div class="list-group">
+      <div class="list-group-item">
+        <h1>bendraukim, parašyk mums laišką!</h1>
+          <form role="form">
+              <input bs-form-control ng-model="invoice.name" type="text" label="Vardas" label-class="col-xs-3 col-sm-2 col-lg-1"
+                      class="col-xs-9 col-sm-10 col-lg-11" placeholder="Vardas" />
+              <input bs-form-control ng-model="invoice.email" type="email" label="El.paštas" label-class="col-xs-3 col-sm-2 col-lg-1"
+                     class="col-xs-9 col-sm-10 col-lg-11" placeholder="El.paštas" />
+              <textarea type="text" ng-model="invoice.message" label="Žinutė" placeholder="Žinutė" bs-form-control></textarea>
+              <div class="checkbox">
+                  <label>
+                      <input type="checkbox" checked="yes"> Prenumeruoti naujienlaiškį
+                  </label>
+              </div>
+              <button type="submit" class="btn btn-primary">Siųsti</button>
+              <button type="reset" class="btn">Atšaukti</button>
+          </form>
+      </div>
+    </div>
+  </div>
+</div>
